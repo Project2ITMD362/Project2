@@ -42,3 +42,10 @@ html {
   background-color: #ddd;
   color: black;
 }
+
+.topnav-centered1 a {
+    position: relative;
+    top: 50&;
+    left: 0%;
+    width: 34%;
+}
