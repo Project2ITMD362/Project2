@@ -22,7 +22,7 @@ html {
 .topnav {
   position: relative;
   overflow: hidden;
-  background-color: blue;
+  background-color: rgb(0, 0, 238);
 }
 .topnav-centered a {
     position: relative;
@@ -48,4 +48,16 @@ html {
     top: 50&;
     left: 0%;
     width: 34%;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(0, 0, 238);
+   color: white;
+   text-align: center;
+   height: 10%;
+   margin: auto;
 }
