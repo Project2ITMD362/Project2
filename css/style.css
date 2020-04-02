@@ -1,12 +1,16 @@
-body {
-	background-color: #00BFFF;
-	background-image: url("../images/flowers.jpg.jpg");
-}
+
+
 html {
 	line-height: 1.2em;
 	font-size: 1em; /*using the golden rule of 1.618*/
 	font-family: Arial, "Times New Roman", Verdana;
 }
+#title{
+    font-size: 28px;
+    font-family: arial;
+    color: #2B6CA3;
+}
+
 #header-and-title {
 	width: 100&;
 	height:15%;
