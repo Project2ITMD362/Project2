@@ -3,10 +3,14 @@ html {
 	font-size: 1em; /*using the golden rule of 1.618*/
 	font-family: Arial, "Times New Roman", Verdana;
 }
-header.style{
+
+#title{
     font-size: 28px;
-    font-family: arial;
+    font-weight: bold;
+    font-family: Arial;
     color: #2B6CA3;
+    float: right;
+    margin: 10% 0;
 }
 
 #header-and-title {
