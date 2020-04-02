@@ -1,5 +1,3 @@
-
-
 html {
 	line-height: 1.2em;
 	font-size: 1em; /*using the golden rule of 1.618*/
@@ -12,7 +10,7 @@ html {
 }
 
 #header-and-title {
-	width: 100&;
+	width: 100%;
 	height:15%;
 	Position: fixed;
 }
