@@ -37,17 +37,6 @@ $('.slider').each(function() {              // For every slider
     });
   }
 
-  //function advance() {                     // Used to set 
-   // clearTimeout(timeout);                 // Clear previous timeout
-   // timeout = setTimeout(function() {      // Set new timer
-     // if (currentIndex < ($slides.length - 1)) { // If slide < total slides
-    //    move(currentIndex + 1);            // Move to next slide
-    //  } else {                             // Otherwise
-    //    move(0);                           // Move to the first slide
-   //   }
-   // }, 4000);                              // Milliseconds timer will wait
-  //}
-
   $.each($slides, function(index) {
     // Create a button element for the button
     var $button = $('<button type="button" class="slide-btn">&bull;</button>');
