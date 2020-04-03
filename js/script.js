@@ -21,10 +21,10 @@ $('.slider').each(function() {              // For every slider
 
     if (newIndex > currentIndex) {   // If new item > current
       slideLeft = '100%';            // Sit the new slide to the right
-      animateLeft = '-100%';         // Animate the current group to the left
+      //animateLeft = '-100%';         // Animate the current group to the left
     } else {                         // Otherwise
       slideLeft = '-100%';           // Sit the new slide to the left
-      animateLeft = '100%';          // Animate the current group to the right
+      //animateLeft = '100%';          // Animate the current group to the right
     }
     // Position new slide to left (if less) or right (if more) of current
     $slides.eq(newIndex).css( {left: slideLeft, display: 'block'} );
