@@ -9,7 +9,7 @@ $('.slider').each(function() {              // For every slider
   function move(newIndex) {          // Creates the slide from old to new one
     var animateLeft, slideLeft;      // Declare variables
 
-    advance();                       // When slide moves, call advance() again
+    //advance();                       // When slide moves, call advance() again
 
     // If it is the current slide / animating do nothing
     if ($group.is(':animated') || currentIndex === newIndex) {  
@@ -37,16 +37,16 @@ $('.slider').each(function() {              // For every slider
     });
   }
 
-  function advance() {                     // Used to set 
-    clearTimeout(timeout);                 // Clear previous timeout
-    timeout = setTimeout(function() {      // Set new timer
-      if (currentIndex < ($slides.length - 1)) { // If slide < total slides
-        move(currentIndex + 1);            // Move to next slide
-      } else {                             // Otherwise
-        move(0);                           // Move to the first slide
-      }
-    }, 4000);                              // Milliseconds timer will wait
-  }
+  //function advance() {                     // Used to set 
+   // clearTimeout(timeout);                 // Clear previous timeout
+   // timeout = setTimeout(function() {      // Set new timer
+     // if (currentIndex < ($slides.length - 1)) { // If slide < total slides
+    //    move(currentIndex + 1);            // Move to next slide
+    //  } else {                             // Otherwise
+    //    move(0);                           // Move to the first slide
+   //   }
+   // }, 4000);                              // Milliseconds timer will wait
+  //}
 
   $.each($slides, function(index) {
     // Create a button element for the button
@@ -60,7 +60,7 @@ $('.slider').each(function() {              // For every slider
     buttonArray.push($button);       // Add it to the button array
   });
 
-  advance();                          // Script is set up, advance() to move it
+  //advance();                          // Script is set up, advance() to move it
 
 
 });
