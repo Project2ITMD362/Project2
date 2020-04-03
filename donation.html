@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home | isud</title>
+  <link href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css"/>
+  <script src="js/script.js"></script>
+</head>
+
+<header>
+  <div id="header-and-title">
+    <img id="img_header" src="images/isudlogo.png" alt="isud logo">
+    <span id="title">The International Society for Universal Dialogue</span>
+  </div>
+</header>
+
+<body>
+  <div class="topnav">
+    <div class="topnav-centered">
+      <a href="#home" class="active">Home</a>
+    </div>
+
+    <div class="topnav-centered">
+      <a href="#home" class="active">Sign Up</a>
+    </div>
+
+    <div class="topnav-centered1">
+      <a href="#home" class="active">Donate</a>
+    </div>
+  </div>
+
+  <div class="main_row">
+    <div class="col-75">
+      <div class="container">
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-50">
+              <h2>Donation</h2>
+
+              <div class="col-50">
+                <label>Accepted Cards</label>
+
+                <div class="icon-container">
+
+                </div>
+
+                <label for="cnum">Card Number</label>
+                <input type="text" id="cnum" name="cardnumber" placeholder="">
+
+                <label for="expdate">Expiry Date</label>
+                <input type="text" id="expdate" name="expiry_date">
+
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+
+
+                <label for="name">Name On Card</label>
+                <input type="text" id="name" name="full_name" placeholder="Grace Kwon">
+
+                <label for="address1">Address 1</label>
+                <input type="text" id="address1" name="address1" placeholder="Street">
+
+                <label for="address2">Address 2</label>
+                <input type="text" id="address2" name="address2" placeholder="Apt #">
+
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" placeholder="Chicago">
+
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="IL">
+
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="60616">
+              </div>
+            </div>
+          </div>
+
+          <div id="donate_reset">
+            <input id="donate" type="submit" value="Donate!" class="btn">
+            <input id="reset" type="reset" value="Reset" class="btn">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p id="p_footer">Questions? Contact us <a class="link_footer" href="https://www.google.com/">here</a> </p>
+  </div>
+</body>
+</html>
