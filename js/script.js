@@ -7,7 +7,9 @@ $('.slider').each(function() {
   var timeout;                              
 
   function move(newIndex) {          
-    var animateLeft, slideLeft;      
+    var animateLeft, slideLeft;
+
+	advance();
 
     
 
@@ -36,6 +38,17 @@ $('.slider').each(function() {
       currentIndex = newIndex;               
     });
   }
+  
+  function advance() {                     // Used to set 
+    clearTimeout(timeout);                 // Clear previous timeout
+    timeout = setTimeout(function() {      // Set new timer
+      if (currentIndex < ($slides.length - 1)) { // If slide < total slides
+        move(currentIndex + 1);            // Move to next slide
+      } else {                             // Otherwise
+        move(0);                           // Move to the first slide
+      }
+    }, 4000);                              // Milliseconds timer will wait
+  }
 
   $.each($slides, function(index) {
     
@@ -49,7 +62,7 @@ $('.slider').each(function() {
     buttonArray.push($button);      
   });
 
-                  
+   advance();               
 
 
 });
