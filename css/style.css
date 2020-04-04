@@ -3,7 +3,7 @@ body {
 }
 
 html {
-	line-height: 1.2em;
+	line-height: 1.5em;
 	font-size: 1em; /*using the golden rule of 1.618*/
 	font-family: Arial, "Times New Roman", Verdana;
 }
@@ -69,18 +69,18 @@ html {
 
 .footer {
    position: fixed;
-   left: 0;
    bottom: 0;
    width: 100%;
    background-color: #2B6CA3;
    color: white;
    text-align: center;
    height: 5%;
-   margin: auto;
+   
 }
 
 #p_footer {
 	color: orange;
+	margin-top: 1%;
 }
 p {
 	font-size: 1.5em;
@@ -139,3 +139,146 @@ p {
   cursor: pointer;
   }
 
+@media screen and (min-width: 480px) {
+	body {
+	overflow: auto;
+	}
+	
+	html {
+	line-height: 1.5em;
+	font-size: 1em; /*using the golden rule of 1.618*/
+	font-family: Arial, "Times New Roman", Verdana;
+	}
+	
+	#title{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #2B6CA3;
+	float: left;
+	width: 50%;
+	margin-top: 5%;
+	}
+	
+	#img_header {
+	float: left;
+	margin-left: 20%;
+	}
+	
+	#header-and-title {
+	float: left;
+	width: 100%;
+	height:min-content;
+	Position: sticky;
+	text-align: center;
+	margin-bottom: 1%;
+	}
+	
+    .topnav {
+    position: relative;
+    overflow: hidden;
+    background-color: #2B6CA3;
+    width: 100%;
+    float: left;
+    margin-bottom: 1%;
+	}
+	
+	.topnav-centered a {
+    position: relative;
+    top: 50&;
+    left: 0%;
+    width: 33%;
+	}
+	
+	.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+	}
+
+    .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+
+    .topnav-centered1 a {
+    position: relative;
+    top: 50&;
+    left: 0%;
+    width: 34%;
+    }
+	
+	.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #2B6CA3;
+    color: white;
+    text-align: center;
+    height: 5%;
+    }
+	
+	#p_footer {
+	color: orange;
+	margin-top: 1%;
+	}
+	
+	p {
+	font-size: 1.5em;
+	}
+	
+	.link_footer {
+	color: white;
+	}
+	
+	.slider {
+    max-width: 20%;
+    margin: 0px auto 0px auto;
+   }
+   
+   .slide-viewer {
+    position: relative; 
+    height: 20%;
+	}
+	
+	.slide-group {
+	margin-left: 15%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+	}
+	
+	.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    }
+	
+	.slide:first-child {
+    display: block;
+	}
+	
+	.slide:first-child {
+    display: block;
+	}
+	
+	.slide-buttons {
+  text-align: center;
+  }
+
+  .slide-btn {
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 200%;
+  line-height: 0.5em;
+  }
+
+  .slide-btn.active, .slide-btn:hover {
+  color: #ed8e6c;
+  cursor: pointer;
+  }
+	
+}
