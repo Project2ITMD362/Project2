@@ -16,11 +16,13 @@ html {
 	float: left;
 	width: 50%;
 	margin-top: 5%;
+	margin-left: 30%;
+	margin-bottom: 2%;
 }
 
 #img_header {
 	float: left;
-	margin-left: 20%;
+	margin-left: 32%;
 	
 }
 
@@ -75,7 +77,12 @@ html {
    color: white;
    text-align: center;
    height: 5%;
+   margin-top: 2%;
    
+}
+
+.content {
+	margin-bottom: 5%;
 }
 
 #p_footer {
@@ -93,7 +100,7 @@ p {
 
 .slider {
   max-width: 20%;
-  margin: 0px auto 0px auto;
+  margin-left: 15%;
   }
   
 
@@ -124,6 +131,7 @@ p {
 
 .slide-buttons {
   text-align: center;
+  
   }
 
 .slide-btn {
@@ -139,10 +147,27 @@ p {
   cursor: pointer;
   }
 
-<<<<<<< HEAD
+
 @media screen and (min-width: 480px) {
 	
+	.slider {
+		margin: 0px auto 0px auto;
+	}
 	
+	#img_header {
+		margin-left: 20%;
+	}
+	
+	#title {
+		margin-left: 0%;
+		margin-bottom: 0%;
+	}
+	
+	.slide-buttons {
+		margin-left: 0%;
+	}
+	
+}	
 =======
 /*donation page*/
 .main_row,
