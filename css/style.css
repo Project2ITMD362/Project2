@@ -128,11 +128,8 @@ p {
 
 
 
-.slide-buttons {
+/*.slide-buttons {
   text-align: center;
-  width: 100%;
-  
-  
   }
 
 .slide-btn {
@@ -140,14 +137,14 @@ p {
   background: none;
   color: #000;
   font-size: 200%;
-  line-height: 0.5em;
+  line-height: 1em;
   
   }
 
 .slide-btn.active, .slide-btn:hover {
   color: #ed8e6c;
   cursor: pointer;
-  }
+  } */
 
 
 @media screen and (min-width: 480px) {
@@ -165,9 +162,9 @@ p {
 		margin-bottom: 0%;
 	}
 	
-	.slide-buttons {
+	/*.slide-buttons {
 		margin-left: 0%;
-	}
+	}*/
 	
 }	
 =======

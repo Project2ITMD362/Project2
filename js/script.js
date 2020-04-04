@@ -18,8 +18,8 @@ $('.slider').each(function() {
       return;
     }
 
-    buttonArray[currentIndex].removeClass('active'); 
-    buttonArray[newIndex].addClass('active');        
+    //buttonArray[currentIndex].removeClass('active'); 
+    //buttonArray[newIndex].addClass('active');        
 
     if (newIndex > currentIndex) {   
       slideLeft = '100%';            
@@ -52,14 +52,15 @@ $('.slider').each(function() {
 
   $.each($slides, function(index) {
     
-    var $button = $('<button type="button" class="slide-btn">&bull;</button>');
-    if (index === currentIndex) {    
-      $button.addClass('active');    
-    }
-    $button.on('click', function() { 
-      move(index);                   
-    }).appendTo('.slide-buttons');   
-    buttonArray.push($button);      
+    //var $button = $('<button type="button" class="slide-btn">&bull;</button>');
+    //if (index === currentIndex) {    
+      //$button.addClass('active');    
+    //}
+    //$button.on('click', function() { 
+      //move(index);                   
+    //}).appendTo('.slide-buttons');   
+    //buttonArray.push($button);    
+		advance();
   });
 
    advance();               
