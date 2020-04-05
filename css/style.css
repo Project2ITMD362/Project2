@@ -73,7 +73,6 @@ html {
    text-align: center;
    height: 5%;
    margin-top: 2%;
-
 }
 
 .content {
@@ -133,7 +132,6 @@ p {
   color: #000;
   font-size: 200%;
   line-height: 1em;
-
   }
 
 .slide-btn.active, .slide-btn:hover {
@@ -156,7 +154,6 @@ p {
 		margin-left: 0%;
 		margin-bottom: 0%;
 	}
-
 	/*.slide-buttons {
 		margin-left: 0%;
 	}*/
