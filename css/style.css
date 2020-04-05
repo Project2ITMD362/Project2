@@ -3,7 +3,7 @@ body {
 }
 
 html {
-	line-height: 1.2em;
+	line-height: 1.5em;
 	font-size: 1em; /*using the golden rule of 1.618*/
 	font-family: Arial, "Times New Roman", Verdana;
 }
@@ -16,11 +16,13 @@ html {
 	float: left;
 	width: 50%;
 	margin-top: 5%;
+	margin-left: 30%;
+	margin-bottom: 2%;
 }
 
 #img_header {
 	float: left;
-	margin-left: 20%;
+	margin-left: 32%;
 	
 }
 
@@ -38,12 +40,11 @@ html {
   overflow: hidden;
   background-color: #2B6CA3;
   width: 100%;
-  float: left;
   margin-bottom: 1%;
 }
 .topnav-centered a {
     position: relative;
-    top: 50&;
+    top: 50%;
     left: 0%;
     width: 33%;
 }
@@ -52,7 +53,7 @@ html {
   color: #f2f2f2;
   text-align: center;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.5em;
 }
 
 .topnav a:hover {
@@ -62,25 +63,30 @@ html {
 
 .topnav-centered1 a {
     position: relative;
-    top: 50&;
+    top: 50%;
     left: 0%;
     width: 34%;
 }
 
 .footer {
    position: fixed;
-   left: 0;
    bottom: 0;
    width: 100%;
    background-color: #2B6CA3;
    color: white;
    text-align: center;
    height: 5%;
-   margin: auto;
+   margin-top: 2%;
+   
+}
+
+.content {
+	margin-bottom: 5%;
 }
 
 #p_footer {
 	color: orange;
+	margin-top: 1%;
 }
 p {
 	font-size: 1.5em;
@@ -93,13 +99,12 @@ p {
 
 .slider {
   max-width: 20%;
-  margin: 0px auto 0px auto;
+  margin-left: 15%;
   }
   
 
 .slide-viewer {
     position: relative; 
-    
     height: 20%;
 	}
 
@@ -122,7 +127,7 @@ p {
 
 
 
-.slide-buttons {
+/*.slide-buttons {
   text-align: center;
   }
 
@@ -131,11 +136,120 @@ p {
   background: none;
   color: #000;
   font-size: 200%;
-  line-height: 0.5em;
+  line-height: 1em;
+  
   }
 
 .slide-btn.active, .slide-btn:hover {
   color: #ed8e6c;
   cursor: pointer;
-  }
+  } */
 
+
+@media screen and (min-width: 480px) {
+	
+	.slider {
+		margin: 0px auto 0px auto;
+	}
+	
+	#img_header {
+		margin-left: 20%;
+	}
+	
+	#title {
+		margin-left: 0%;
+		margin-bottom: 0%;
+	}
+	
+	/*.slide-buttons {
+		margin-left: 0%;
+	}*/
+	
+}	
+=======
+/*donation page*/
+.main_row,
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10%;
+    width: 80%;
+}
+
+.main_row {
+    margin-bottom: 10%;
+}
+
+.col-50 {
+    flex: 50%;
+    margin-left: 0;
+}
+
+.col-75 {
+    flex: 75%;
+}
+
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+
+.container {
+    padding: 5px 20px 15px 20px;
+    border-radius: 3px;
+    border: 4px #2B6CA3;
+    border-style: double;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+#donate_reset{
+    text-align: center;
+}
+
+#donate,
+#reset{
+    width: 25%;
+}
+
+#donate{
+    margin-right: 2.5%;
+}
+
+#reset{
+    margin-left: 2.5%;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+>>>>>>> master
+}
