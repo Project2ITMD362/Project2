@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up | isud</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<header>
+    <div id="header-and-title">
+        <img id="img_header" src="images/isudlogo.png" alt="isud logo">
+        <span id="title">The International Society for Universal Dialogue</span>
+    </div>
+</header>
+<body>
+<div class="topnav">
+    <div class="topnav-centered">
+        <a href="#home" class="active">Home</a>
+    </div>
+    <div class="topnav-centered">
+        <a href="#home" class="active">Sign Up</a>
+    </div>
+    <div class="topnav-centered">
+        <a href="#home" class="active">Donate</a>
+    </div>
+</div>
+<div id="signup-wrapper">
+    <h1 id="title-signup">Join an organization who cares about the peace in the world!</h1>
+</div>
+
+<div id="form-wrapper">
+    <form id="signup-form" class="container" action="#null" method="get">
+
+        <fieldset>
+            <img id="signup-logo" src="images/isudlogo.png">
+        </fieldset>
+
+        <fieldset>
+            <legend id="signup-legend">Please provide us with complete information!</legend>
+            <div class="fields-division">
+                <label class="labels">Full name: </label>
+                <input id="name-input" type="text" name="name_field" placeholder="John Doe" required>
+            </div>
+            <div class="fields-division">
+                <label class="labels">Phone Number: </label>
+                <input type="tel" name="phone_field" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </div>
+            <div class="fields-division">
+                <label class="labels">Email Address: </label>
+                <input type="email" name="email_field" placeholder="example@gmail.com" required>
+            </div>
+
+            <div class="fields-division">
+                <label class="labels">Date of Birth: </label>
+                <input type="date" name="date_of_birth" required>
+            </div>
+            <div>
+                <button type="submit" class="topnav" id="button-signup">JOIN US NOW</button>
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+<div class="footer">
+    <p id="p_footer">Questions? Contact us <a class="link_footer" href="https://en.wikipedia.org/wiki/International_Society_for_Universal_Dialogue">here</a> </p>
+</div>
+</body>
+</html>
