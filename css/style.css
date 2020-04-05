@@ -297,5 +297,7 @@ label {
     width: 25%;
 }
 #name-input{
-    
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 0;
 }
