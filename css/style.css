@@ -160,6 +160,16 @@ p {
 
 }
 /*donation page*/
+h2{
+    font-weight: bold;
+    font-size: x-large;
+    margin: 2% 0;
+}
+
+label{
+
+}
+
 .main_row,
 .row{
     display: flex;
@@ -169,7 +179,7 @@ p {
 }
 
 .main_row {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .col-50 {
@@ -210,6 +220,10 @@ label {
     margin-bottom: 20px;
     padding: 7px 0;
     font-size: 24px;
+}
+
+.fa-cc-visa{
+    color: navy;
 }
 
 #donate_reset{
