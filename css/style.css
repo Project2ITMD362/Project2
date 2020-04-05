@@ -3,7 +3,7 @@ body {
 }
 
 html {
-	line-height: 1.2em;
+	line-height: 1.5em;
 	font-size: 1em; /*using the golden rule of 1.618*/
 	font-family: Arial, "Times New Roman", Verdana;
 }
@@ -16,11 +16,13 @@ html {
 	float: left;
 	width: 50%;
 	margin-top: 5%;
+	margin-left: 30%;
+	margin-bottom: 2%;
 }
 
 #img_header {
 	float: left;
-	margin-left: 20%;
+	margin-left: 32%;
 	
 }
 
@@ -69,18 +71,23 @@ html {
 
 .footer {
    position: fixed;
-   left: 0;
    bottom: 0;
    width: 100%;
    background-color: #2B6CA3;
    color: white;
    text-align: center;
    height: 5%;
-   margin: auto;
+   margin-top: 2%;
+   
+}
+
+.content {
+	margin-bottom: 5%;
 }
 
 #p_footer {
 	color: orange;
+	margin-top: 1%;
 }
 p {
 	font-size: 1.5em;
@@ -93,13 +100,12 @@ p {
 
 .slider {
   max-width: 20%;
-  margin: 0px auto 0px auto;
+  margin-left: 15%;
   }
   
 
 .slide-viewer {
     position: relative; 
-    
     height: 20%;
 	}
 
@@ -122,7 +128,7 @@ p {
 
 
 
-.slide-buttons {
+/*.slide-buttons {
   text-align: center;
   }
 
@@ -131,14 +137,37 @@ p {
   background: none;
   color: #000;
   font-size: 200%;
-  line-height: 0.5em;
+  line-height: 1em;
+  
   }
 
 .slide-btn.active, .slide-btn:hover {
   color: #ed8e6c;
   cursor: pointer;
-  }
+  } */
 
+
+@media screen and (min-width: 480px) {
+	
+	.slider {
+		margin: 0px auto 0px auto;
+	}
+	
+	#img_header {
+		margin-left: 20%;
+	}
+	
+	#title {
+		margin-left: 0%;
+		margin-bottom: 0%;
+	}
+	
+	/*.slide-buttons {
+		margin-left: 0%;
+	}*/
+	
+}	
+=======
 /*donation page*/
 .main_row,
 .row{
@@ -223,4 +252,5 @@ label {
 
 .btn:hover {
     background-color: #45a049;
+>>>>>>> master
 }

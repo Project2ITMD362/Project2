@@ -18,8 +18,8 @@ $('.slider').each(function() {
       return;
     }
 
-    buttonArray[currentIndex].removeClass('active'); 
-    buttonArray[newIndex].addClass('active');        
+    //buttonArray[currentIndex].removeClass('active'); 
+    //buttonArray[newIndex].addClass('active');        
 
     if (newIndex > currentIndex) {   
       slideLeft = '100%';            
@@ -39,27 +39,28 @@ $('.slider').each(function() {
     });
   }
   
-  function advance() {                     // Used to set 
-    clearTimeout(timeout);                 // Clear previous timeout
-    timeout = setTimeout(function() {      // Set new timer
-      if (currentIndex < ($slides.length - 1)) { // If slide < total slides
-        move(currentIndex + 1);            // Move to next slide
-      } else {                             // Otherwise
-        move(0);                           // Move to the first slide
+  function advance() {                     
+    clearTimeout(timeout);                 
+    timeout = setTimeout(function() {      
+      if (currentIndex < ($slides.length - 1)) { 
+        move(currentIndex + 1);            
+      } else {                            
+        move(0);                            
       }
-    }, 4000);                              // Milliseconds timer will wait
+    }, 4000);                              
   }
 
   $.each($slides, function(index) {
     
-    var $button = $('<button type="button" class="slide-btn">&bull;</button>');
-    if (index === currentIndex) {    
-      $button.addClass('active');    
-    }
-    $button.on('click', function() { 
-      move(index);                   
-    }).appendTo('.slide-buttons');   
-    buttonArray.push($button);      
+    //var $button = $('<button type="button" class="slide-btn">&bull;</button>');
+    //if (index === currentIndex) {    
+      //$button.addClass('active');    
+    //}
+    //$button.on('click', function() { 
+      //move(index);                   
+    //}).appendTo('.slide-buttons');   
+    //buttonArray.push($button);    
+		advance();
   });
 
    advance();               
