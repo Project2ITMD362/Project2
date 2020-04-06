@@ -139,7 +139,39 @@ p {
 
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
+	
+	.slider {
+		margin-left: 25%;
+	}
+	
+	#img_header {
+		margin-left: 35%;
+	}
+	
+	#title {
+		margin-left: 25%;
+		margin-bottom: 0%;
+	}
+	
+}	
+@media screen and (min-width: 960px) {
+	
+	.slider {
+		margin-left: 30%;
+	}
+	
+	#img_header {
+		margin-left: 40%;
+	}
+	
+	#title {
+		margin-left: 25%;
+		margin-bottom: 0%;
+	}
+	
+}
+@media screen and (min-width: 1200px) {
 	
 	.slider {
 		margin: 0px auto 0px auto;
