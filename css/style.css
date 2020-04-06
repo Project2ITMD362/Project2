@@ -34,13 +34,15 @@ html {
 }
 
 .topnav {
-    position: relative;
-    overflow: hidden;
-    background-color: rgba(43, 108, 163, 0.9);
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.6);
-    width: 100%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(43, 108, 163, 0.3), rgba(255, 255, 255, 0.1));
-    margin-bottom: 2%;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(43, 108, 163, 0.9);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  float: left;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(43, 108, 163, 0.3), rgba(255, 255, 255, 0.1));
+  margin-bottom: 2%;
+
 }
 .topnav-centered a {
     position: relative;
@@ -99,14 +101,14 @@ p {
   
 
 .slide-viewer {
-    position: relative;
-    height: 20%;
+    position: relative; 
+    height: 5%;
 	}
 
 .slide-group {
 	margin-left: 15%;
     width: 100%;
-    height: 100%;
+    height: 10%;
     position: relative;
 	}
 
@@ -120,25 +122,47 @@ p {
     display: block;
 	}
 
+.space {
+	position: relative;
+	height: 10%;
+	width: 100%;
+	background-color: white;
+}
 
 
-/*.slide-buttons {
-  text-align: center;
-  }
 
-.slide-btn {
-  border: none;
-  background: none;
-  color: #000;
-  font-size: 200%;
-  line-height: 1em;
-  }
-
-.slide-btn.active, .slide-btn:hover {
-  color: #ed8e6c;
-  cursor: pointer;
-  } */
-
+@media screen and (min-width: 600px) {
+	
+	.slider {
+		margin-left: 25%;
+	}
+	
+	#img_header {
+		margin-left: 35%;
+	}
+	
+	#title {
+		margin-left: 25%;
+		margin-bottom: 0%;
+	}
+	
+}	
+@media screen and (min-width: 960px) {
+	
+	.slider {
+		margin-left: 30%;
+	}
+	
+	#img_header {
+		margin-left: 40%;
+	}
+	
+	#title {
+		margin-left: 25%;
+		margin-bottom: 0%;
+	}
+	
+}
 
 @media screen and (min-width: 480px) {
     .topnav-centered a{
@@ -161,9 +185,8 @@ p {
 		margin-left: 0%;
 		margin-bottom: 0%;
 	}
-	/*.slide-buttons {
-		margin-left: 0%;
-	}*/
+	
+}	
 
 }
 /*donation page*/
