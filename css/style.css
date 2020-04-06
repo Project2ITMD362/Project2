@@ -128,25 +128,6 @@ p {
 
 
 
-/*.slide-buttons {
-  text-align: center;
-  }
-
-.slide-btn {
-  border: none;
-  background: none;
-  color: #000;
-  font-size: 200%;
-  line-height: 1em;
-  
-  }
-
-.slide-btn.active, .slide-btn:hover {
-  color: #ed8e6c;
-  cursor: pointer;
-  } */
-
-
 @media screen and (min-width: 480px) {
 	
 	.slider {
@@ -161,10 +142,6 @@ p {
 		margin-left: 0%;
 		margin-bottom: 0%;
 	}
-	
-	/*.slide-buttons {
-		margin-left: 0%;
-	}*/
 	
 }	
 =======
