@@ -96,7 +96,7 @@ p {
 
 
 .slider {
-  max-width: 20%;
+  max-width: 1%;
   margin-left: 15%;
   }
   
@@ -130,12 +130,22 @@ p {
 	background-color: white;
 }
 
+h1 {
+	font-size: 2em;
+	margin-bottom: 1%;
+	text-decoration: underline;
+}
 
 
 @media screen and (min-width: 600px) {
 	
 	.slider {
+		margin: 0px auto 0px auto;
 		margin-left: 25%;
+	}
+	
+	.slide-group {
+		margin: 0px auto 0px auto;
 	}
 	
 	#img_header {
@@ -151,15 +161,16 @@ p {
 @media screen and (min-width: 960px) {
 	
 	.slider {
-		margin-left: 30%;
+		margin: 0px auto 0px auto;
+		margin-left: 33%;
 	}
 	
 	#img_header {
-		margin-left: 40%;
+		margin-left: 50%;
 	}
 	
 	#title {
-		margin-left: 25%;
+		margin-left: 40%;
 		margin-bottom: 0%;
 	}
 	
@@ -175,11 +186,11 @@ p {
     }
 
 	.slider {
-		margin: 0px auto 0px auto;
+		margin-right: 0px auto 0px auto;
 	}
 
 	#img_header {
-		margin-left: 17%;
+		margin-left: 32%;
 	}
 
 	#title {
@@ -188,6 +199,19 @@ p {
 	}
 	
 }	
+
+
+@media screen and (min-width: 1200px) {
+	
+	.slider {
+		margin: 0px auto 0px auto;
+		margin-left: 40%;
+	}
+	
+}
+
+}
+
 
 /*donation page*/
 h2{
