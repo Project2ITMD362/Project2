@@ -88,6 +88,7 @@ html {
 p {
 	font-size: 1.5em;
 	margin-bottom: 1%;
+	margin-left: 1%;
 }
 
 .link_footer {
@@ -124,7 +125,7 @@ p {
 	}
 
 .space {
-	position: relative;
+	position: absolute;
 	height: 10%;
 	width: 100%;
 	background-color: white;
@@ -134,6 +135,26 @@ h1 {
 	font-size: 2em;
 	margin-bottom: 1%;
 	text-decoration: underline;
+}
+
+.announcements {
+	background-color: rgba(43, 108, 163, 0.9);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.6);
+	width: min-content;
+	font-size: 1.8em;
+	text-align: center;
+	margin-left: 2%;
+	color: orange;
+	margin-bottom: 1%;
+}
+
+ul {
+	margin-left: 1%;
+	font-size: 1.5em;
+}
+
+li {
+	margin-bottom: 1%;
 }
 
 
