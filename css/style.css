@@ -15,13 +15,13 @@ html {
     color: #2B6CA3;
 	float: left;
 	margin-top: 5%;
-	padding-left: 2%;
+	padding-left: 0%;
 	margin-bottom: 2%;
 }
 
 #img_header {
 	float: left;
-	margin-left: 20%;
+	margin-left: 30%;
 }
 
 #header-and-title {
@@ -149,8 +149,9 @@ h1 {
 }
 
 ul {
-	margin-left: 1%;
+	margin-left: 1.5%;
 	font-size: 1.5em;
+	list-style-type: disc;
 }
 
 li {
@@ -170,15 +171,16 @@ li {
 	}
 	
 	#img_header {
-		margin-left: 35%;
+		margin-left: 42%;
 	}
 	
 	#title {
-		margin-left: 25%;
+		margin-left: 0%;
 		margin-bottom: 0%;
 	}
 	
 }	
+
 @media screen and (min-width: 960px) {
 	
 	.slider {
@@ -187,11 +189,12 @@ li {
 	}
 	
 	#img_header {
-		margin-left: 50%;
+		margin-left: 80%;
+		
 	}
 	
 	#title {
-		margin-left: 40%;
+		margin-left: 0%;
 		margin-bottom: 0%;
 	}
 	
@@ -215,7 +218,7 @@ li {
 	}
 
 	#title {
-		margin-left: 0%;
+		margin-left: 1%;
 		margin-bottom: 0%;
 	}
 	
@@ -229,9 +232,23 @@ li {
 		margin-left: 40%;
 	}
 	
+	#img_header {
+		margin-left: 20%;
+	}
 }
 
+@media screen and (min-width: 1500px) {
+	
+	.slider {
+		margin: 0px auto 0px auto;
+		margin-left: 40%;
+	}
+	
+	#img_header {
+		margin-left: 32%;
+	}
 }
+
 
 
 /*donation page*/
