@@ -187,7 +187,7 @@ li {
     margin: 0px auto 0px auto;
   }
   #img_header {
-    margin-left: 42%;
+    margin-left: 35%;
   }
   #title {
     margin-left: 0%;
@@ -201,10 +201,10 @@ li {
     margin-left: 33%;
   }
   #img_header {
-    margin-left: 80%;
+    margin-left: 40%;
   }
   #title {
-    margin-left: 0%;
+    margin-left: 15%;
     margin-bottom: 0%;
   }
 }
@@ -238,7 +238,11 @@ li {
     margin-left: 40%;
   }
   #img_header {
-    margin-left: 20%;
+    margin-left: 42%;
+  }
+  #title {
+    margin-left: 22%;
+    margin-bottom: 0%;
   }
 }
 
@@ -248,7 +252,10 @@ li {
     margin-left: 40%;
   }
   #img_header {
-    margin-left: 32%;
+    margin-left: 25%;
+  }
+  #title {
+	margin-left: 2%;
   }
 }
 
