@@ -6,7 +6,7 @@ html {
   line-height: 1.5em;
   font-size: 1em;
   /*using the golden rule of 1.618*/
-  font-family: Arial, "Times New Roman", Verdana;
+  font-family: Arial, "Times New Roman", Verdana, 'Roboto', sans-serif;
 }
 
 #title {
@@ -89,6 +89,7 @@ html {
 }
 
 p {
+  font-family: 'Roboto'; 	 
   font-size: 1.5em;
   margin-bottom: 1%;
   margin-left: 1%;
@@ -156,6 +157,7 @@ ul {
 }
 
 li {
+  font-family: 'Roboto';
   margin-bottom: 1%;
 }
 
