@@ -169,7 +169,7 @@ li {
     border-left: 1px solid rgba(169, 169, 169, 1);
   }
   .slider {
-    margin-right: 0px auto 0px auto;
+    margin: 0px auto 0px auto;
   }
   #img_header {
     margin-left: 32%;
