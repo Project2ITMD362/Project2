@@ -342,7 +342,7 @@ label {
 }
 
 #title-signup {
-  font-family: Arial;
+  font-family: Lobster;
   font-size: 1.5em;
   font-weight: bold;
   color: #2B6CA3;
@@ -358,7 +358,7 @@ label {
 }
 
 #signup-legend {
-  font-family: Arial;
+  font-family: Lobster;
   font-size: larger;
   color: #2B6CA3;
   margin-bottom: 3%;
@@ -372,7 +372,7 @@ label {
 }
 
 .labels {
-  font-family: "Bell MT";
+  font-family: Lobster;
   font-size: large;
   width: fit-content;
   display: inline-block;
@@ -394,5 +394,13 @@ label {
   width: fit-content;
   height: fit-content;
   margin-bottom: 0;
+}
+
+#name-label{
+  padding-right: 1%;
+}
+
+#date-label{
+  padding-right: 3%;
 }
 
