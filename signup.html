@@ -30,16 +30,14 @@
 </div>
 
 <div id="form-wrapper">
-    <form id="signup-form" class="container" action="#null" method="get">
-
+    <form id="signup-form" class="container" action="#null" method="get" autocomplete="on">
         <fieldset>
             <img id="signup-logo" src="images/isudlogo.png" alt="isud logo">
         </fieldset>
-
         <fieldset>
             <legend id="signup-legend">Please provide us with complete information!</legend>
             <div class="fields-division">
-                <label class="labels">Full name: </label>
+                <label class="labels" id="name-label">Full name: </label>
                 <input id="name-input" type="text" name="name_field" placeholder="John Doe" required>
             </div>
             <div class="fields-division">
@@ -52,7 +50,7 @@
             </div>
 
             <div class="fields-division">
-                <label class="labels">Date of Birth: </label>
+                <label class="labels" id="date-label">Date of Birth: </label>
                 <input type="date" name="date_of_birth" required>
             </div>
             <div>
